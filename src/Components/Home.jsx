@@ -153,10 +153,10 @@ function Home(props) {
                         </div>
                         
 
-              <div className='w-100 mx-auto'>
+              <div className='mx-auto flex justify-center items-center'>
               <input type="text" 
               disabled={userInputState}
-                className='userInput border-0 text-white mt-16 mx-auto w-100 text-center'
+                className='userInput border-0 text-white mt-16 mx-auto w-100 mx-auto text-center'
                 placeholder='Type here...'
                 onChange={(e)=> setUserInput(e.target.value)}
                 value={userInput}
