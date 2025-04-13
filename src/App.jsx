@@ -12,7 +12,7 @@ function App() {
   
   return (
     <>
-    <div className='max-w-5xl bg-[#121715] h-150 mx-auto mt-8 rounded-4xl'
+    <div className='max-w-5xl bg-[#121715] h-150 mx-auto mt-8 md:rounded-4xl'
     style={{'boxShadow': '9px 20px 120px rgb(50, 50, 50)'}}
     >
 
