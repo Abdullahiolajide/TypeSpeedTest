@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+  body{
+    background-color: #92FFD8;
+    color: rgb(50, 50, 50);
+
+}
+.active{
+  background-color: #2B3733;
+  color: #2A9F77;
+}
+.act:active{
+  background: #000;
+}
+
+.monospace{
+    font-family: 'Fira Code', monospace;
+
+}
