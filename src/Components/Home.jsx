@@ -144,7 +144,7 @@ function Home(props) {
 
                    <div className='relative p-4'>
 
-                        <div className='mx-8 font-semibold text-lg max-w-2xl mx-auto mt-16 text-center monospace'>
+                        <div className='mx-8 font-semibold text-md md:text-lg max-w-2xl mx-auto mt-8 md:mt-16 text-center monospace'>
                               {                              
                               textArray.split('').map((text, i) => (
                                 <span key={i} style={{ color: colorArray[i] }}>{text}</span>
